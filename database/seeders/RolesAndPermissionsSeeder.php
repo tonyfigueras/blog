@@ -17,11 +17,11 @@ class RolesAndPermissionsSeeder extends Seeder
         // * Reset cached roles and permissions
         app()[\Spatie\Permission\PermissionRegistrar::class]->forgetCachedPermissions();
 
-        // * Create permissions for send email
+        // * Create permissions for view blogs
         Permission::create(['name' => 'view blogs']);
       
 
-        // * create permissions for register user
+        // * create permissions for register blogs
         Permission::create(['name' => 'register blogs']);
 
         // * Roles
