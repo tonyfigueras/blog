@@ -5,7 +5,22 @@ window.Vue = require('vue').default;
 
 //window.Vue = require('vue');
 
+
 import VueRouter from 'vue-router'
+import Vuetify from 'vuetify';
+import "vuetify/dist/vuetify.min.css";
+import Vue           from 'vue'
+//import Notifications from 'vue-notification'
+import Swal from 'sweetalert2';
+import Toast from "vue-toastification";
+import "vue-toastification/dist/index.css";
+Vue.use(Toast, {
+    transition: "Vue-Toastification__bounce",
+    maxToasts: 20,
+    newestOnTop: true
+  });
+//Vue.use(Notifications)
+Vue.use(Vuetify);
 
 Vue.use(VueRouter)
 
@@ -23,7 +38,8 @@ const router = new VueRouter({
 
 const app = new Vue({
     el: '#app',
-    router
+    router,
+    vuetify: new Vuetify()
 });
 
 

@@ -11,9 +11,23 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>Laravue</title>
+  <title>Blog</title>
 
   <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <script defer src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+  <script defer src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+  <script defer src=" https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/v4-shims.js"></script> 
+  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/fontawesome.js"> </script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper" id="app">
