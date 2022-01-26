@@ -26,7 +26,7 @@ Vue.use(VueRouter)
 
 let routes = [
 	{ path: '/dashboard', component: require('./components/Dashboard.vue').default },
-	{ path: '/profile', component: require('./components/Profile.vue').default }
+	{ path: '/create_publicacion', component: require('./components/Blog/Create_Publicacion/template.vue').default }
 ]
 
 const router = new VueRouter({
